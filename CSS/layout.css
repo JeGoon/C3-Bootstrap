@@ -1,0 +1,125 @@
+#ba-tekst {
+  font-family: monospace;
+}
+
+#header {
+  border: solid black;
+  margin-top: 5px;
+
+}
+
+#artiesten {
+  margin-top: 25px;
+  border: solid black 2.5px;
+}
+
+
+#welkom {
+  margin-top: 25px;
+  margin-left: 48px;
+  border: solid black 2.5px;
+}
+
+#nummers {
+  margin-top: 25px;
+  margin-left: 48px;
+  border: solid black 2.5px;
+}
+
+#snowboys {
+  border: solid black;
+  margin-top: 5px;
+  height: 750px;
+}
+
+
+#pokoe {
+  margin-top: 25px;
+  margin-left: 30px;
+  border: solid black 2.5px;
+}
+
+#plaatje {
+  border: solid black 2.5px;
+  margin-left: 323px;
+  margin-top:-400px;
+}
+
+#tekst {
+  margin-top: 25px;
+  margin-left: 30px;
+  border: solid black 2.5px;
+}
+
+#leden {
+    margin-top: 25px;
+    border: solid black 2.5px;
+    height: 605px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* body {
+    background-image: url(img/whitebground.jpg);
+  } */
+
+  nav {
+    width: 1169.8px;
+    height: 45px;
+    background-color: white;
+    margin-top: 115px;
+    border: solid black 3px;
+  }
+
+  nav ul {
+    float: left;
+  }
+
+  nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+  }
+
+  nav ul li a {
+    display: block;
+    font-family: arial;
+    color: black;
+    font-size: 13px;
+    padding: 9px 30px;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    /* border: solid black 1.5px; */
+  }
+
+  nav ul li a:hover {
+  background-color: #f3f3f3;
+  }
+
+  nav ul li ul {
+    display: none;
+    position: absolute;
+    padding: 8px;
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  nav ul li:hover ul {
+    display: block;
+  }
+
+  nav ul li ul li {
+    width: 200px;
+    border-radius: 4px;
+  }
+
+  nav ul li ul li a{
+    padding: 12px 14;
+  }
+
+  nav ul li ul li a:hover {
+    background-color: #f3f3f3;
+  }
