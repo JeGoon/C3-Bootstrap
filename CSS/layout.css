@@ -77,6 +77,25 @@ body {
     height: 605px;
   }
 
+#bankzitters {
+  margin-top: 25px;
+  border: solid black 2.5px;
+  height: 720px;
+}
+
+#bankNummer {
+  margin-top: 25px;
+  margin-left: 30px;
+  border: solid black 2.5px;
+  height: 720px;
+}
+
+#bankTitle {
+  border: solid black;
+  margin-top: 5px;
+  height: 865px;
+}
+
   * {
     margin: 0;
     padding: 0;
