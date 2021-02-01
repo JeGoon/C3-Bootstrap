@@ -168,6 +168,22 @@ body {
   float: right;
   margin-top: -65px;
 }
+#roy {
+  border: solid black;
+  margin-left: 50px;
+}
+
+#brent {
+  border: solid black;
+  margin-left: 30px;
+}
+#snow {
+  border: solid black;
+}
+
+.video {
+  margin-top: 20px;
+}
   * {
     margin: 0;
     padding: 0;
