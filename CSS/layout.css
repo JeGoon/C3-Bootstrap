@@ -163,6 +163,11 @@ body {
   margin-left: 390px;
   margin-top: -200px;
 }
+
+#snowboysSong {
+  float: right;
+  margin-top: -65px;
+}
   * {
     margin: 0;
     padding: 0;
