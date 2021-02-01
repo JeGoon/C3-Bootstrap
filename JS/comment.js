@@ -37,12 +37,14 @@ var comment = [
   $("#addComment").click(function(){
     var addObj = {
         "name": $("#name").val(),
-        "date": $("date").val(),
         "body": $("#text").val()
     };
-    console.log(addObj);
+
     comment.push(addObj);
     render(addObj);
+    $("#name").val(' ');
+    $("#text").val(' ');
+
   })
 
 });
