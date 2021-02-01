@@ -10,7 +10,7 @@ function render(data) {
         data.name+
       '</p>'+
       '<div class="date">'+
-        data.date +
+        new Date() +
       '</div>'+
       '<p>'+
         data.body+
