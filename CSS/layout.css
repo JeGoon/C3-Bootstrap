@@ -96,6 +96,40 @@ body {
   height: 865px;
 }
 
+#pokoeHeader {
+  border: solid black;
+  margin-top: 5px;
+  height: 200px;
+}
+
+#kaj {
+  margin-left: 795px;
+  margin-top: -200px;
+}
+
+#kajHeader {
+  border: solid black;
+  float: right;
+}
+
+#kaj1 {
+  border: solid black;
+  float: left;
+  margin-left: -15px;
+}
+
+#kajc1 {
+  margin-top: 10px;
+}
+
+#kajVerse1 {
+  border: solid black;
+  margin-top: 5px;
+  height: 200px;
+  margin-left: 390px;
+  margin-top: -200px;
+}
+
   * {
     margin: 0;
     padding: 0;
