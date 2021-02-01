@@ -1,0 +1,21 @@
+    <div class="commentBox">
+      <div class="leftPanelImg"><img id="profile" src="img/noprofile.png" alt="Girl in a jacket" width="115px" height="110px"></div>
+      <div class="rightPanel">
+        <p class="informatie">Look Haandrikman</p>
+        <div class="date">31 Jan, 2021</div>
+        <p>Dit is een comment</p>
+      </div>
+      <div class="clear"</div>
+    </div>
+
+
+
+    <!-- <div class="commentBox">
+      <div class="leftPanelImg"><img id="profile" src="img/noprofile.png" alt="Girl in a jacket" width="115px" height="110px"></div>
+      <div class="rightPanel">
+        <p class="informatie">Look Haandrikman</p>
+        <div class="date">31 Jan, 2021</div>
+        <p>Dit is een comment</p>
+      </div>
+      <div class="clear"</div>
+    </div> -->
