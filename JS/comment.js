@@ -1,39 +1,48 @@
-var comment = [
-{"name": "Look Haandirkman", "date": "31-1-2021", "body": "Dit is een comment"}
-];
 
-// A $( document ).ready() block.
+function render(data) {
+  var html=
+  '<div class="commentBox">'+
+    '<div class="leftPanelImg">'+
+      '<img id="profile" src="img/noprofile.png" alt="Girl in a jacket" width="115px" height="110px">'+
+    '</div>'+
+    '<div class="rightPanel">'+
+      '<p class="informatie">'+
+        data.name+
+      '</p>'+
+      '<div class="date">'+
+        data.date +
+      '</div>'+
+      '<p>'+
+        data.body+
+      '</p>'+
+    '</div>'+
+    '<div class="clear"></div>' +
+  '</div>';
+    $("#container").append(html);
+}
 $( document ).ready(function() {
 
-  var html="";
+
+
+var comment = [
+{"name": "Look Haandrikman", "date": "1-2-2021", "body": "Hey, Dit is ene voorbeeld van een comment!"}
+];
+
+
   for (var i = 0; i<comment.length; i++) {
-      html +=
-        '<div class="commentBox">'+
-          '<div class="leftPanelImg">'+
-            '<img id="profile" src="img/noprofile.png" alt="Girl in a jacket" width="115px" height="110px">'+
-          '</div>'+
-          '<div class="rightPanel">'+
-            '<p class="informatie">'+
-              comment[i].name+
-            '</p>'+
-            '<div class="date">'+
-              comment[i].date +
-            '</div>'+
-            '<p>'+
-              comment[i].body+
-            '</p>'+
-          '</div>'+
-          '<div class="clear"></div>' +
-        '</div>';
-      // html += '<div class="commentBox">'+
-      //     '<div class="leftPanelImg"><img id="profile" src="img/noprofile.png" alt="Girl in a jacket" width="115px" height="110px"></div>'+
-      //     '<div class="rightPanel">'+
-      //       '<p class="informatie">Look Haandrikman</p>'+
-      //       '<div class="date">31 Jan, 2021</div>'+
-      //       '<p>Dit is een comment</p>'+
-      //     '</div>'+
-      //     '<div class="clear"</div>'+
-      //   '</div> ';
+      // html +=
+      render(comment[i]);
   }
-  $("#container").html(html);
+
+  $("#addComment").click(function(){
+    var addObj = {
+        "name": $("#name").val(),
+        "date": $("date").val(),
+        "body": $("#text").val()
+    };
+    console.log(addObj);
+    comment.push(addObj);
+    render(addObj);
+  })
+
 });
