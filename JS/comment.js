@@ -25,7 +25,7 @@ $( document ).ready(function() {
 
 
 var comment = [
-{"name": "Look Haandrikman", "date": "1-2-2021", "body": "Hey, Dit is ene voorbeeld van een comment!"}
+{"name": "Look Haandrikman", "date": "1-2-2021", "body": "Hey, Dit is een voorbeeld van een comment!"}
 ];
 
 
