@@ -130,6 +130,39 @@ body {
   margin-top: -200px;
 }
 
+#kajVerse2 {
+  border: solid black;
+  margin-top: 10px;
+  height: 200px;
+}
+
+#kajc2 {
+  margin-left: 795px;
+  margin-top: -200px;
+}
+
+#kaj2 {
+  border: solid black;
+  float: right;
+}
+
+#kaj3 {
+  border: solid black;
+  float: left;
+  margin-left: -15px;
+}
+
+#kajc3 {
+  margin-top: 10px;
+}
+
+#kajDans {
+  border: solid black;
+  margin-top: 5px;
+  height: 200px;
+  margin-left: 390px;
+  margin-top: -200px;
+}
   * {
     margin: 0;
     padding: 0;
