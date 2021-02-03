@@ -17,26 +17,26 @@ body {
 }
 
 #artiesten {
-  margin-top: 25px;
+  margin-top: 60px;
   border: solid black 2.5px;
 }
 
 
 #welkom {
-  margin-top: 25px;
+  margin-top: 60px;
   margin-left: 48px;
   border: solid black 2.5px;
 }
 
 #nummers {
-  margin-top: 25px;
+  margin-top: 60px;
   margin-left: 48px;
   border: solid black 2.5px;
 }
 
 #title {
   border: solid black;
-  margin-top: 5px;
+  margin-top: 55px;
   height: 750px;
 }
 
@@ -215,13 +215,21 @@ body {
     background-image: url(img/whitebground.jpg);
   } */
 
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
   nav {
+    position: fixed;
     width: 1169.8px;
     height: 45px;
     background-color: white;
     margin-top: 115px;
     border: solid black 3px;
-  }
+    z-index: 1;
+    }
 
   nav ul {
     float: left;
