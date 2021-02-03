@@ -1,7 +1,7 @@
 
 function render(data) {
   var html=
-  '<div class="commentBox">'+
+  '<div class="commentBox" class="class="col-lg-12 col-xm-4 col-md-6 bg-warning">'+
     '<div class="leftPanelImg">'+
       '<img id="profile" src="img/noprofile.png" alt="Girl in a jacket" width="115px" height="110px">'+
     '</div>'+

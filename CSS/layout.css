@@ -2,6 +2,8 @@ body {
   background-image: url("..//img/whitebground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
 
 #ba-tekst {
@@ -180,9 +182,13 @@ body {
   float: right;
 }
 
-#snowboysSong {
+.tracks {
   float: right;
   margin-top: -65px;
+}
+
+#royalistiq {
+  margin-top: -100px;
 }
 #roy {
   border: solid black;
