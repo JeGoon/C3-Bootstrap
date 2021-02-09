@@ -6,6 +6,27 @@ body {
   height: 100%;
 }
 
+<<<<<<< HEAD
+=======
+.verderKnop {
+  float: right;
+  margin-top: 10px;
+  margin-right: 38px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border: solid black 1px;
+  border-radius: 10px;
+}
+
+.terugKnop {
+  float: left;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: solid black 1px;
+  border-radius: 10px;
+}
+>>>>>>> 53c06e5c414e0bad4e37c37b16ad7321cf470613
 
 #ba-tekst {
   font-family: monospace;
@@ -38,7 +59,7 @@ body {
 #title {
   border: solid black;
   margin-top: 55px;
-  height: 750px;
+  height: 780px;
 }
 
 
@@ -57,11 +78,23 @@ body {
 
 #egbertimg {
   border: solid black 2.5px;
-  margin-left: 323px;
+  margin-left: 220px;
   margin-top: -300px;
 }
 
 #fishimg {
+  border: solid black 2.5px;
+  margin-left: 220px;
+  margin-top: -325px;
+}
+
+#royimg {
+  border: solid black 2.5px;
+  margin-left: 220px;
+  margin-top: -323px;
+}
+
+#bankimg {
   border: solid black 2.5px;
   margin-left: 323px;
   margin-top: -323px;
@@ -95,7 +128,7 @@ body {
 
 #bankTitle {
   border: solid black;
-  margin-top: 5px;
+  margin-top: 60px;
   height: 865px;
 }
 
