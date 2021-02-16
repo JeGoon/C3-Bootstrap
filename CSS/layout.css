@@ -228,25 +228,29 @@ body {
 #royalistiq {
   margin-top: -100px;
 }
-#roy {
+/* #roy {
   border: solid black;
   margin-left: 25px;
-}
+} */
 
-#brent {
+/* #brent {
   float: right;
   border: solid black;
   margin-top: -240px;
   /* margin-left: 30px; */
-}
-#snow {
+} */
+/* #snow {
   float: left;
   border: solid black;
   margin-left: -315px;
+} */
+.videoSnowboys {
+  float: left;
+  border: solid black;
 }
 
 .video {
-  margin-top: 20px;
+  border: solid black;
 }
   * {
     margin: 0;
@@ -262,6 +266,12 @@ body {
     top: 0;
     width: 100%;
   }
+
+  /* formulier */
+  .formulier {
+    background-color: white;
+  }
+
 
 
 
