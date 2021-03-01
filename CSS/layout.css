@@ -60,29 +60,34 @@ body {
   border: solid black;
 }
 
-.col-lg-3 {
-  border: solid black 2.5px;
-  margin: 20px;
+#container {
+  margin: 0 auto;
 }
+
+.col-lg-3,.col-lg-5, .col-lg-4, .col-lg-8, .col-lg-6 {
+  margin-top: 20px;
+  /* margin-left: 1%; */
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* .borderBox {
+  border: solid black;
+} */
 
 .centerInfoText {
   border: solid black 2.5px;
   margin: 20px 5px;
 }
 
-.plaatjeBox {
-  border: solid black 2.5px;
-  text-align: center;
-}
-
-#plaatje {
-  width: 100%;
-}
-
 #egbertimg {
   border: solid black 2.5px;
   margin-left: 220px;
   margin-top: -300px;
+}
+
+#plaatje {
+  width: 100%;
 }
 
 #fishimg {
@@ -215,14 +220,13 @@ body {
 }
 
 .trackBox {
+  display: inline-block;
   height: 98px;
   text-align: center;
 }
 
 .tracks {
-  position: absolute;
-  left: 12%;
-  bottom: 10%;
+ width: inherit;
 }
 
 #royalistiq {
@@ -279,11 +283,15 @@ body {
     /* position: fixed; */
     width: 1169.8px;
     height: 45px;
-    background-color: white;
+    background-color: black;
     margin-top: 5px;
     border: solid black 3px;
     z-index: 1;
     }
+
+.navbar-toggler-icon {
+  
+}
 
   nav ul {
     float: left;
@@ -301,7 +309,7 @@ body {
     color: black;
     font-size: 13px;
     padding: 9px 30px;
-    background-color: white;
+    background-color: #343a40;
     z-index: 1;
     position: relative;
     /* border: solid black 1.5px; */
@@ -332,5 +340,5 @@ body {
   }
 
   nav ul li ul li a:hover {
-    background-color: #f3f3f3;
+    background--lgor: #f3f3f3;
   }
