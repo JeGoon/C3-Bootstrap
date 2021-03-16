@@ -80,15 +80,16 @@ body {
   margin: 20px 5px;
 }
 
-#egbertimg {
+/* #egbertimg {
   border: solid black 2.5px;
   margin-left: 220px;
   margin-top: -300px;
-}
+} */
 
 #plaatje {
   width: 100%;
 }
+
 
 #fishimg {
   border: solid black 2.5px;
@@ -135,13 +136,13 @@ body {
   height: 865px;
 }
 
-#pokoeHeader {
+/* #pokoeHeader {
   border: solid black;
   margin-top: 5px;
   height: 200px;
-}
+} */
 
-#kaj {
+/* #kaj {
   margin-left: 795px;
   margin-top: -200px;
 }
@@ -217,7 +218,7 @@ body {
 #kaj4 {
   border: solid black;
   float: right;
-}
+} */
 
 .trackBox {
   display: inline-block;

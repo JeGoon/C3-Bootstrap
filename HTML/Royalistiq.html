@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Royalistiq</title>
     <link rel="stylesheet" href="../CSS/layout.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="all">
@@ -19,35 +20,43 @@
           </div>
         </div>
 
-          <div class="row">
-          <div>
-            <nav>
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="artiesten.html">Beste Artiesten</a>
+        <div class="row">
+
+            <!-- <nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="navbar"> -->
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="navbar">
+
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="artiesten.html">Beste Artiesten</a>
                   <ul>
-                    <li><a href="Snowboys.html">The Snowboys</a></li>
-                    <li><a href="Egbert.html">Yung Egbert</a></li>
-                    <li><a href="Fish.html">FishanatorNL</a></li>
-                    <li><a href="Royalistiq.html">Royalistiq</a></li>
-                    <li><a href="Bankzitters.html">Bankzitters</a></li>
+                    <li class="nav-item"><a href="Snowboys.html">The Snowboys</a></li>
+                    <li class="nav-item"><a href="Egbert.html">Yung Egbert</a></li>
+                    <li class="nav-item"><a href="Fish.html">FishanatorNL</a></li>
+                    <li class="nav-item"><a href="Royalistiq.html">Royalistiq</a></li>
+                    <li class="nav-item"><a href="Bankzitters.html">Bankzitters</a></li>
                   </ul>
 
-                <li><a href="#">Beste Pokoes</a>
+                <li class="nav-item"><a href="#">Beste Pokoes</a>
                   <ul>
-                    <li><a href="Disstrack.html">Bankzitters Disstrack(Kaj van der Ree)</a></li>
-                    <li><a href="#">Happy New Gear</a></li>
-                    <li><a href="#">Stapelgek</a></li>
-                    <li><a href="#">Laat je gaan(Gio Swikker Editie)</a></li>
-                    <li><a href="#">Mijn Held (voor DusDavid)</a></li>
+                    <li class="nav-item"><a href="Disstrack.html">Bankzitters Disstrack(Kaj van der Ree)</a></li>
+                    <li class="nav-item"><a href="#">Happy New Gear</a></li>
+                    <li class="nav-item"><a href="#">Stapelgek</a></li>
+                    <li class="nav-item"><a href="#">Laat je gaan(Gio Swikker Editie)</a></li>
+                    <li class="nav-item"><a href="#">Mijn Held (voor DusDavid)</a></li>
                   </ul>
 
-                <li><a href="#">Honorable Mentions</a></li>
-                <li><a href="../comment.html">Comments</a></li>
+                <li class="nav-item"><a href="#">Honorable Mentions</a></li>
+                <li class="nav-item"><a href="../comment.html">Comments</a></li>
+                <li class="nav-item"><a href="gegevens.html">Adress</a></li>
               </ul>
+            </div>
             </nav>
           </div>
-        </div>
 
         <div class="row">
 
@@ -59,13 +68,13 @@
               nou ga ik echt ragen man *zucht* wacht ff ik moet echt even afkoelen ik wordt helemaal gek *klap* k*nkerzooi </h5>
             </div>
 
-            <div class="col-lg-4 trackBox">
+            <div class="col-lg-3 trackBox">
               <audio class="tracks" controls>
                 <source src="../AUDIO/royalistiq.mp3" type="audio/mpeg">
               </audio>
             </div>
 
-            <div class="col-lg-3 bg-danger linkerInfo">
+            <div class="col-lg-3 bg-danger borderBox">
               <h3>Van Roy naar Royalistiq</h3>
               <p>Royalistiq of ook wel bekend als Roy Beszelsen is 23 jaar en is eigenlijk bekend geworden door een Fortnite hype, de reden dat hij zijn populariteit heeft kunnen behouden is doordat hij 1 grote meme is.
               Hij is namelijk in verschillende memes te vinden zoals dus de Fortnite youtubers en hun bandana en de herres lach of zelfs hoe vaak hij wel niet zegt dat hij een audi RS7 heeft.
@@ -76,16 +85,14 @@
               </p>
             </div>
 
-            <div class="col-lg-5 centerInfo">
-
-              <div class=' centerInfoText'>
+              <div class="col-lg-5 borderBox">
                 <h3>De genre van Roy</h3>
                 <p>De genre van Roy is een beetje anders dan de rest van de top 5, we hebben een boyband gehad(The Snowboys), een rapper(Egbert) en iemand die parodies doet(FishanatorNL),
                 maar Roy die maakt niet eens liedjes. Roy heeft namelijk alleen tiktoks waarin hij zingt en die zijn altijd maar 50 seconden maximaal. Voor die reden wisten we niet wat we met hem aan moeste,
                 maar omdat wij toch vinden dat hij veel talent heeft haalt hij het toch. Als we eerlijk zijn dan denken we namelijk wel dat als Roy ooit een pokoe uitbrengt dat dat de beste pokoe ooit gaat zijn.
                 Dus Roy staat hier niet door zijn liedjes maar de potentie die wij hebben waargenomen uit zijn tiktoks.
                 </p>
-              </div>
+
 
               <div class='plaatjeBox'>
                 <img id="plaatje" src="../img/Royalistiq.gif" alt="Girl in a jacket">
@@ -94,7 +101,7 @@
             </div>
 
 
-              <div class="col-lg-3 bg-danger rechterInfo">
+              <div class="col-lg-3 bg-danger borderBox">
                   <h3 id="num-tekst">Waarom is Roy nou zo goed?</h3>
                   <p>En nu vraag je misschien "maar waarom vinden jullie Roy nou zo goed", nou das makkelijk, ben je doof ofzo. Als je hoort hoe hij de line "Set your mind free, it's the year of summer" nailed denk je vast hetzelfde als wij.
                   Daarna heb je zo'n sicke cameratransition naar Roy die zingt: "Kleine Jongen" en dat heeft meerdere mensen genezen van ziektes zoals Corona, Kanker en Chlamydia.

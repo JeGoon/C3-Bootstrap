@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Egbert</title>
     <link rel="stylesheet" href="../CSS/layout.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="all">
@@ -20,53 +21,63 @@
         </div>
 
         <div class="row">
-          <div>
-            <nav>
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="artiesten.html">Beste Artiesten</a>
+
+            <!-- <nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="navbar"> -->
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="navbar">
+
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="artiesten.html">Beste Artiesten</a>
                   <ul>
-                    <li><a href="Snowboys.html">The Snowboys</a></li>
-                    <li><a href="Egbert.html">Yung Egbert</a></li>
-                    <li><a href="Fish.html">FishanatorNL</a></li>
-                    <li><a href="Royalistiq.html">Royalistiq</a></li>
-                    <li><a href="Bankzitters.html">Bankzitters</a></li>
+                    <li class="nav-item"><a href="Snowboys.html">The Snowboys</a></li>
+                    <li class="nav-item"><a href="Egbert.html">Yung Egbert</a></li>
+                    <li class="nav-item"><a href="Fish.html">FishanatorNL</a></li>
+                    <li class="nav-item"><a href="Royalistiq.html">Royalistiq</a></li>
+                    <li class="nav-item"><a href="Bankzitters.html">Bankzitters</a></li>
                   </ul>
 
-                <li><a href="#">Beste Pokoes</a>
+                <li class="nav-item"><a href="#">Beste Pokoes</a>
                   <ul>
-                    <li><a href="Disstrack.html">Bankzitters Disstrack(Kaj van der Ree)</a></li>
-                    <li><a href="#">Happy New Gear</a></li>
-                    <li><a href="#">Stapelgek</a></li>
-                    <li><a href="#">Laat je Gaan(Gio Swikker Editie)</a></li>
-                    <li><a href="#">Mijn Held (voor DusDavid)</a></li>
+                    <li class="nav-item"><a href="Disstrack.html">Bankzitters Disstrack(Kaj van der Ree)</a></li>
+                    <li class="nav-item"><a href="#">Happy New Gear</a></li>
+                    <li class="nav-item"><a href="#">Stapelgek</a></li>
+                    <li class="nav-item"><a href="#">Laat je gaan(Gio Swikker Editie)</a></li>
+                    <li class="nav-item"><a href="#">Mijn Held (voor DusDavid)</a></li>
                   </ul>
 
-                <li><a href="#">Honorable Mentions</a></li>
-                <li><a href="../comment.html">Comments</a></li>
+                <li class="nav-item"><a href="#">Honorable Mentions</a></li>
+                <li class="nav-item"><a href="../comment.html">Comments</a></li>
+                <li class="nav-item"><a href="gegevens.html">Adress</a></li>
               </ul>
+            </div>
             </nav>
           </div>
-        </div>
 
 
         <div class="row">
 
           <div class="col-lg-12 bg-warning content">
 
+          <!-- <div id='container'> -->
+
             <div class='col-lg-8'>
               <h1>Egbert</h1>
               <h4>Hoppa!</h4>
             </div>
 
-            <div class="col-lg-4 trackBox">
+            <div class="col-lg-3 trackBox">
               <audio class="tracks" controls>
                 <source src="../AUDIO/GUAP.mp3" type="audio/mpeg">
               </audio>
             </div>
 
               <!-- <div class="row"> -->
-                <div class="col-lg-3 bg-danger linkerInfo">
+                <div class="col-lg-3 bg-danger borderBox">
                   <h3>Egbert Kanaal</h3>
                   <p>Egbert Kanaal of Jeffrey(zijn echte naam(maar wel minder vet)) is een youtuber met 65k abonnees maar wij vinden dat hij veel meer verdient. Met zijn serie Egbert Reacting, reageert hij op relevant youtube nieuws zoals:
                   de nieuwe siren head video's van dellie of de pyro vlogs van ruben koet. Egbert heeft ook een app gemaakt na het daverende succes van Kaasje(door Koen), genaamd Kaasinator.
@@ -75,9 +86,9 @@
                   </p>
                 </div>
 
-                <div class="col-lg-5 centerInfo">
 
-                  <div class='centerInfoText'>
+
+                  <div class="col-lg-5 borderBox">
                     <h3>Zijn Engste Pokoes</h3>
                     <p>Egbert heeft veel ENGE POKOES gemaakt, zoals Guap, OK Boomer, Hele Nacht en Happy New Gear. Hij doet dit altijd met Tejak de soundcloud rapper die eng spit.
                     Guap was de eerste pokoe en was meer een soort roast richting de liedjes die Poke en Yung Felix maken zoals Bangalang. OK Boomer is meer standaard rap die vanuit een meme ontstaan is
@@ -85,7 +96,7 @@
                     uit de Nederlandse hits van 2020 gepakt, de tekst slaat daarom nergens op maar je moet de flow gewoon beseffen. Happy New Gear is de meest recente pokoe die Egbert geproduced heeft
                     en is in samenwerking van Logitech Gaming Gear, maar meer info daarover vind je bij het tabje Happy New Gear.</p>
                     </p>
-                  </div>
+
 
                   <div class='plaatjeBox'>
                     <img id="plaatje" src="../img/egbert.jpg" alt="Girl in a jacket">
@@ -93,7 +104,7 @@
 
                 </div>
 
-                <div class="col-lg-3 bg-danger rechterInfo">
+                <div class="col-lg-3 bg-danger borderBox">
                   <h3 id="num-tekst">Guap en Ok Boomer</h3>
                   <p>Bij het liedje Guap heb je een paar sicke bars:De bar "Ik heb fucking veel seks, kom bij de dokter voor mijn dagelijkse test(soa's)" kunnen wij ons wel in vinden in tegenstelling tot veel andere.
                   De bar "Penis als een pancake, dik maar niet lang" slaat op een aandoening die Egbert heeft waar hij zich voor schaamt maar ook vet vind. De line "Aangenaam, Tejak is de naam, bitches zijn net apen want ze willen mijn banaan"
