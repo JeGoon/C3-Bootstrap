@@ -36,11 +36,6 @@ body {
   font-family: monospace;
 }
 
-#header {
-  border: solid black;
-  margin-top: 5px;
-
-}
 
 #artiesten {
   /* margin-top: 60px; */
@@ -75,150 +70,17 @@ body {
   border: solid black;
 }
 
-.centerInfoText {
-  border: solid black 2.5px;
-  margin: 20px 5px;
-}
-
-/* #egbertimg {
-  border: solid black 2.5px;
-  margin-left: 220px;
-  margin-top: -300px;
-} */
 
 #plaatje {
   width: 100%;
 }
 
-
-#fishimg {
-  border: solid black 2.5px;
-  margin-left: 220px;
-  margin-top: -325px;
-}
-
-#royimg {
-  border: solid black 2.5px;
-  margin-left: 220px;
-  margin-top: -323px;
-}
-
-#bankimg {
-  border: solid black 2.5px;
-  margin-left: 323px;
-  margin-top: -323px;
-}
-
-#tekst {
-  margin-top: 25px;
-  margin-left: 30px;
-  border: solid black 2.5px;
-  height: 605px;
-}
-
-
-#bankzitters {
-  margin-top: 25px;
-  border: solid black 2.5px;
-  height: 720px;
-}
-
-#bankmer {
-  margin-top: 25px;
-  margin-left: 30px;
-  border: solid black 2.5px;
-  height: 720px;
-}
-
-#bankTitle {
-  border: solid black;
-  margin-top: 60px;
-  height: 865px;
-}
-
-/* #pokoeHeader {
-  border: solid black;
-  margin-top: 5px;
+#plaatjeKaj {
+  /* width: 365px; */
   height: 200px;
-} */
-
-/* #kaj {
-  margin-left: 795px;
-  margin-top: -200px;
-}
-
-#kajHeader {
   border: solid black;
-  float: right;
 }
 
-#kaj1 {
-  border: solid black;
-  float: left;
-  margin-left: -15px;
-}
-
-#kajc1 {
-  margin-top: 10px;
-}
-
-#kajVerse1 {
-  border: solid black;
-  margin-top: 5px;
-  height: 200px;
-  margin-left: 390px;
-  margin-top: -200px;
-}
-
-#kajVerse2 {
-  border: solid black;
-  margin-top: 10px;
-  height: 200px;
-}
-
-#kajc2 {
-  margin-left: 795px;
-  margin-top: -200px;
-}
-
-#kaj2 {
-  border: solid black;
-  float: right;
-}
-
-#kaj3 {
-  border: solid black;
-  float: left;
-  margin-left: -15px;
-}
-
-#kajc3 {
-  margin-top: 10px;
-}
-
-#kajDans {
-  border: solid black;
-  margin-top: 5px;
-  height: 200px;
-  margin-left: 390px;
-  margin-top: -200px;
-}
-
-#kajVerse3 {
-  border: solid black;
-  margin-top: 10px;
-  height: 200px;
-}
-
-#kajc4 {
-  margin-left: 795px;
-  margin-top: -200px;
-}
-
-#kaj4 {
-  border: solid black;
-  float: right;
-} */
 
 .trackBox {
   display: inline-block;
@@ -230,25 +92,9 @@ body {
  width: inherit;
 }
 
-#royalistiq {
-  margin-top: -100px;
-}
-/* #roy {
-  border: solid black;
-  margin-left: 25px;
+
 } */
 
-/* #brent {
-  float: right;
-  border: solid black;
-  margin-top: -240px;
-  /* margin-left: 30px; */
-} */
-/* #snow {
-  float: left;
-  border: solid black;
-  margin-left: -315px;
-} */
 .videoSnowboys {
   float: left;
   border: solid black;
