@@ -60,9 +60,9 @@ body {
   border: solid black;
 }
 
-#container {
+/* #container {
   margin: 0 auto;
-}
+} */
 
 .col-lg-3,.col-lg-5, .col-lg-4, .col-lg-8, .col-lg-6 {
   margin-top: 20px;
@@ -71,9 +71,9 @@ body {
   vertical-align: top;
 }
 
-/* .borderBox {
+.borderBox {
   border: solid black;
-} */
+}
 
 .centerInfoText {
   border: solid black 2.5px;
@@ -290,7 +290,7 @@ body {
     }
 
 .navbar-toggler-icon {
-  
+
 }
 
   nav ul {
