@@ -62,6 +62,24 @@ body {
   background-color: #DD003F;
 }
 
+#fishContainer {
+  border: solid black;
+  background-color: black;
+  color: white;
+}
+
+#royContainer {
+  border: solid black;
+  background-color: #ff1b00;
+  color: white;
+}
+
+#bankContainer {
+  border: solid black;
+  background-color: #262626;
+  color: white;
+}
+
 .col-lg-3,.col-lg-5, .col-lg-4, .col-lg-8, .col-lg-6 {
   margin-top: 20px;
   /* margin-left: 1%; */
@@ -80,9 +98,21 @@ body {
 
 .EgbertBox {
   color: white;
-  background-color: #343a40; 
+  background-color: #343a40;
 }
 
+.fishBox {
+  background-color: #fb7100;
+}
+
+.RoyBox {
+  background-color: #ff1b00;
+}
+
+.bankBox {
+  background-color: #F8B507;
+  color: black;
+}
 
 #plaatje {
   width: 100%;
@@ -148,6 +178,24 @@ body {
   /* formulier */
   .formulier {
     background-color: white;
+  }
+
+  .kajHeader{
+    border: solid Black;
+    background-color: #000ca3;
+    color: white;
+  }
+
+  .kajRight {
+    border: solid Black;
+    background-color: #000ca3;
+    color: white;
+  }
+
+  .kajLeft {
+    border: solid #000ca3;
+    background-color: black;
+    color: white;
   }
 
 
