@@ -199,12 +199,19 @@ body {
   .GearHeader {
     border: solid red;
     background-color: yellow;
+    color: red;
   }
 
   .gearLeft {
     border: solid yellow;
     background-color: red;
     color: yellow;
+  }
+
+  .gearRight {
+    border: solid red;
+    background-color: yellow;
+    color: red; 
   }
 
 
