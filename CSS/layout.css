@@ -51,13 +51,15 @@ body {
   border: solid black 2.5px;
 }
 
-.content {
+
+#SnowContainer {
+  background-color: #46D6E3;
   border: solid black;
 }
 
-#SnowContainer {
-  background-color: #FFC107;
+#EgbertContainer {
   border: solid black;
+  background-color: #DD003F;
 }
 
 .col-lg-3,.col-lg-5, .col-lg-4, .col-lg-8, .col-lg-6 {
@@ -69,11 +71,16 @@ body {
 
 .borderBox {
   /* border: solid black; */
-  background-color: #FFA000;
+  background-color: White;
 }
 
 .boxBorder {
-  border: solid black;
+  color: White;
+}
+
+.EgbertBox {
+  color: white;
+  background-color: #343a40; 
 }
 
 
