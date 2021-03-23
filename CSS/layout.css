@@ -114,6 +114,10 @@ body {
   color: black;
 }
 
+.artiestenTekst {
+  color: white;
+  text-align: center;
+}
 #plaatje {
   width: 100%;
 }
@@ -211,7 +215,7 @@ body {
   .gearRight {
     border: solid red;
     background-color: yellow;
-    color: red; 
+    color: red;
   }
 
 
