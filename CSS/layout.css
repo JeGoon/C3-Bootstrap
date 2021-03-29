@@ -50,6 +50,11 @@ body {
   border: solid black 2.5px;
 }
 
+#indexContainer {
+  background-color: #ffc500;
+  border: solid black;
+}
+
 
 #SnowContainer {
   background-color: #46D6E3;
@@ -93,6 +98,10 @@ body {
 
 .boxBorder {
   color: White;
+}
+
+.indexBox {
+  background-color: #ee0259;
 }
 
 .EgbertBox {
