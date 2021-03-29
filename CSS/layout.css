@@ -51,8 +51,9 @@ body {
 }
 
 #indexContainer {
-  background-color: #ffc500;
+  background-color: black;
   border: solid black;
+  color: white;
 }
 
 
@@ -101,7 +102,7 @@ body {
 }
 
 .indexBox {
-  background-color: #ee0259;
+  background-color: #ff9200;
 }
 
 .EgbertBox {
