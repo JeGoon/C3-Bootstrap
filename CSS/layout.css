@@ -217,6 +217,24 @@ body {
     color: red;
   }
 
+  .StapelgekHeader {
+    border: solid #F8B507;
+    background-color: #262626;
+    color: #F8B507;
+  }
+
+  .StapelgekLeft {
+    border: solid #F8B507;
+    background-color: #262626;
+    color: #F8B507;
+  }
+
+  .StapelgekRight {
+    border: solid #F8B507;
+    background-color: #262626;
+    color: #F8B507;
+  }
+
 
 
   nav {
