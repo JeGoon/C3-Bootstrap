@@ -145,6 +145,12 @@ body {
   border: solid black;
 }
 
+#plaatjeStapel {
+  height: 207px;
+  width: 100%;
+  border: solid black;
+}
+
 /* .plaatjeColRechts {
   padding-right: 0px;
 } */
