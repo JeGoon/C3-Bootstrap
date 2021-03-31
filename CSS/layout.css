@@ -7,7 +7,7 @@ body {
 }
 
 .carousel-caption {
-  
+
 }
 
 .verderKnop {
@@ -55,9 +55,9 @@ body {
 }
 
 #indexContainer {
-  background-color: black;
+  background-color: #f52c2d;
   border: solid black;
-  color: white;
+
 }
 
 
@@ -106,7 +106,7 @@ body {
 }
 
 .indexBox {
-  background-color: #ff9200;
+  background-color: #f8f745;
 }
 
 .EgbertBox {
