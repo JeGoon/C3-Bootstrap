@@ -255,6 +255,25 @@ body {
     color: #F8B507;
   }
 
+  .SwikkerHeader {
+    border: solid #ee02c4;
+    background-color: #02eedd;
+    color: #ee02c4;
+  }
+
+  .SwikkerLeft {
+    border: solid #02eedd;
+    background-color: #ee02c4;
+    color: #02eedd;
+  }
+
+  .SwikkerRight {
+    border: solid #ee02c4;
+    background-color: #02eedd;
+    color: #ee02c4;
+    height: 200px;
+  }
+
 
 
   nav {
