@@ -159,6 +159,11 @@ body {
   border: solid black;
 }
 
+#plaatjeHeldRechts {
+  height: 207px;
+  width: 
+}
+
 /* .plaatjeColRechts {
   padding-right: 0px;
 } */
@@ -275,6 +280,31 @@ body {
     border: solid #ee02c4;
     background-color: #02eedd;
     color: #ee02c4;
+    height: 200px;
+  }
+
+  .HeldHeader {
+    border: solid #dc191f;
+    background-color: #1920dc;
+    color: #dc191f;
+  }
+
+  .HeldLeft {
+    border: solid #1920dc;
+    background-color: #dc191f;
+    color: #1920dc;
+  }
+
+  .HeldRight {
+    border: solid #dc191f;
+    background-color: #1920dc;
+    color: #dc191f;
+  }
+
+  .HeldVideo {
+    border: solid #dc191f;
+    background-color: #1920dc;
+    color: #dc191f;
     height: 200px;
   }
 
