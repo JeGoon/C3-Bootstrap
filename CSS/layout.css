@@ -127,6 +127,21 @@ body {
   color: black;
 }
 
+.BilalBox {
+  border: solid black;
+  height: 200px;
+  background-color: white;
+  color: red;
+
+}
+
+.BabyBox {
+  border: solid black;
+  height: 200px;
+  background-color: purple;
+  color: yellow;
+}
+
 .artiestenTekst {
   color: white;
   text-align: center;
@@ -161,7 +176,7 @@ body {
 
 #plaatjeHeldRechts {
   height: 207px;
-  width: 
+  width:
 }
 
 /* .plaatjeColRechts {
