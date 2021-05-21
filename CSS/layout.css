@@ -174,10 +174,13 @@ body {
   border: solid black;
 }
 
-#plaatjeHeldRechts {
+#plaatjeHeld {
   height: 207px;
-  width:
+  width: 100%;
+  border: solid black;
 }
+
+
 
 /* .plaatjeColRechts {
   padding-right: 0px;
