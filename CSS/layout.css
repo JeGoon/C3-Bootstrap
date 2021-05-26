@@ -187,6 +187,12 @@ body {
   border: solid black;
 }
 
+#plaatjeHeldChorus {
+  height: 255px;
+  width: 100%;
+  border: solid black;
+}
+
 
 
 /* .plaatjeColRechts {
@@ -309,27 +315,27 @@ body {
   }
 
   .HeldHeader {
-    border: solid #dc191f;
-    background-color: #1920dc;
-    color: #dc191f;
+    border: solid black;
+    background-color: #8f0909;
+    color: white;
   }
 
   .HeldLeft {
-    border: solid #1920dc;
-    background-color: #dc191f;
-    color: #1920dc;
+    border: solid #8f0909;
+    background-color: white;
+    color: #8f0909;
   }
 
   .HeldRight {
-    border: solid #dc191f;
-    background-color: #1920dc;
-    color: #dc191f;
+    border: solid black;
+    background-color: #8f0909;
+    color: white;
   }
 
   .HeldVideo {
-    border: solid #dc191f;
-    background-color: #1920dc;
-    color: #dc191f;
+    border: solid black;
+    background-color: #8f0909;
+    color: white;
     height: 200px;
   }
 
