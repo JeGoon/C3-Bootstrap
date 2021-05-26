@@ -149,6 +149,20 @@ body {
   color: red;
 }
 
+.sbmgBox {
+  border: solid black;
+  height: 200px;
+  background-color:#401202;
+  color: white;
+}
+
+.bangalangBox {
+  border: solid black;
+  height: 200px;
+  background-color:#0176dc;
+  color: #06fc79;
+}
+
 .artiestenTekst {
   color: white;
   text-align: center;
