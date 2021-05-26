@@ -142,6 +142,13 @@ body {
   color: yellow;
 }
 
+.BallinBox {
+  border: solid black;
+  height: 200px;
+  background-color:#292929;
+  color: red;
+}
+
 .artiestenTekst {
   color: white;
   text-align: center;
