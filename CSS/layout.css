@@ -191,6 +191,14 @@ body {
   color: white;
 }
 
+.BizzeyBox {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+  border: solid black;
+  height: 200px;
+}
+
 .artiestenTekst {
   color: white;
   text-align: center;
