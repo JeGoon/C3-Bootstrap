@@ -163,6 +163,34 @@ body {
   color: #06fc79;
 }
 
+.BenenRuurdBox {
+  border: solid black;
+  height: 200px;
+  background-color:#ffd700;
+  color: black;
+}
+
+.RarriBox {
+  border: solid black;
+  height: 200px;
+  color:#a82b11;
+  background-color: #0a6a56;
+}
+
+.DeanBox {
+  border: solid black;
+  height: 200px;
+  background-color:#adf0ee;
+  color: #ba2fed;
+}
+
+.MrowenBox {
+  border: solid black;
+  height: 200px;
+  background-color:black;
+  color: white;
+}
+
 .artiestenTekst {
   color: white;
   text-align: center;
