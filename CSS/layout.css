@@ -105,6 +105,10 @@ body {
   margin-left: 40px;
 }
 
+#correctFname {
+  float: right;
+}
+
 #submit {
   padding: 5px;
 }
@@ -457,6 +461,10 @@ padding: 50px;
 
 }
 
+.nItems {
+  width:
+}
+
   nav ul {
     float: left;
   }
@@ -480,7 +488,7 @@ padding: 50px;
   }
 
   nav ul li a:hover {
-  background-color: #f3f3f3;
+  background-color: #949494;
   }
 
   nav ul li ul {

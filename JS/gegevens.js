@@ -3,7 +3,7 @@ $(document).ready(function() {
   let teller = 0;
 
   $("*#submit").click(function() {
-
+    teller = 0;
 
     if (this.parentNode.id == "form") {
       RegexCheck(1);
@@ -14,7 +14,7 @@ $(document).ready(function() {
     if(teller == 5) {
       console.log("OK!");
       //trigger modal
-      $('#myModal').modal('toggle');
+      $('#myModal').modal('hide');
       $('#myModal').modal('show');
     } else {
       //doe niks
@@ -97,7 +97,9 @@ $(document).ready(function() {
         // $("#mijnModal").show();
       }
 
-
+      $("#fname").hover(function(){
+        $("correctFname").collapse('show');
+      });
 
 
 
