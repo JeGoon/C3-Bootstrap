@@ -35,6 +35,10 @@ body {
   padding-bottom: 200px;
 }
 
+.hoofd {
+  margin-top: 55px;
+}
+
 #ba-tekst {
   font-family: monospace;
 }
@@ -448,17 +452,20 @@ padding: 50px;
 
 
   nav {
-    /* position: fixed; */
-    width: 1169.8px;
-    height: 45px;
+    width: 1135px !important;
+    margin: 0 auto !important;
+    border: solid black 3px !important
+     
+    /* height: 45px;
     background-color: black;
-    margin-top: 5px;
-    border: solid black 3px;
-    z-index: 1;
+    margin-top: 100px;
+    margin-left: 300px;
+     border: solid black 3px;
+    z-index: 1;   */
     }
 
-.navbar-toggler-icon {
-
+/* .navbar-toggler{
+    padding: 10px !important;
 }
 
 .nItems {
@@ -484,7 +491,7 @@ padding: 50px;
     background-color: #343a40;
     z-index: 1;
     position: relative;
-    /* border: solid black 1.5px; */
+    border: solid black 1.5px;
   }
 
   nav ul li a:hover {
@@ -513,4 +520,4 @@ padding: 50px;
 
   nav ul li ul li a:hover {
     background--lgor: #f3f3f3;
-  }
+  } */

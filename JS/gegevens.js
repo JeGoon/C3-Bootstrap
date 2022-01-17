@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $('[data-toggle="tooltip"]').tooltip();   
 
   let teller = 0;
 
@@ -97,15 +98,14 @@ $(document).ready(function() {
         // $("#mijnModal").show();
       }
 
-      $("#fname").hover(function(){
-        $("correctFname").collapse('show');
-      });
+   
 
 
 
 
 
     }
+
 
     event.preventDefault();
   }
