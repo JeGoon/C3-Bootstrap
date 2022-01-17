@@ -30,7 +30,7 @@ $(document).ready(function() {
   function RegexCheck(input) {
 
     let naamRegex = new RegExp(/^[A-z]*\s?[A-z]*?$/);
-    let achternaamRegex = new RegExp(/^[A-z]{2,}\s?[A-z]{2,}\s?[A-z]{2,}\s?[A-z]{2,}$/);
+    let achternaamRegex = new RegExp(/^[A-z]{1,}\s?[A-z]{1,}\s?[A-z]{1,}\s?[A-z]{2,}$/);
     let adresRegex = new RegExp(/[A-z][a-z]*\s[0-9]{1,4}/);
     let postcodeRegex = new RegExp(/[1-9][0-9]{3}\s?[A-Z]{2}/);
     let woonplaatsRegex = new RegExp(/^[A-Za-z]+$/);
