@@ -39,6 +39,13 @@ body {
   margin-top: 55px;
 }
 
+.jumbotron {
+  color: black;
+  margin: 0 auto !important;
+  width: 1000px;
+
+}
+
 #ba-tekst {
   font-family: monospace;
 }
