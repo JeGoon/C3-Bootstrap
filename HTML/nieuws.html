@@ -9,12 +9,136 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="JS/script.js" type="text/javascript"></script>
+    <script src="../JS/nieuws.js" type="text/javascript"></script>
   </head>
   <body>
-    <script>
+    <div class="all">
+      <div id="gegevensContainer" class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- <div class="jumbotron"> -->
+            <h1 class="hoofd">De Beste Pokoesss</h1>
+            <h4 id="hoofdSubtitle" class="hoofd">Only the best from the test</h4>
+          <!-- </div> -->
+          </div>
+        </div>
 
-    </script>
+        <div class="row">
 
+       
+              <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                      <a class="nav-link nItmes" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown nItmes">
+                      <a class="nav-link dropdown-toggle" href="artiesten.html" id="navbarDropdown" role="button" data-toggle="dropdown">Beste Artiesten</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Snowboys.html">The Snowboys</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Egbert.html">Yung Egbert</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Fish.html">FishanatorNL</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Royalistiq.html">Royalistiq</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Bankzitters.html">Bankzitters</a>                        
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown nItmes">
+                      <a class="nav-link dropdown-toggle" href="pokoes.html" id="navbarDropdown" role="button" data-toggle="dropdown">Beste Pokoes</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Disstrack.html">Bankzitters Disstrack (Kaj vd Ree)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="HappyNewGear.html">Happy New Gear</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Stapelgek.html">Stapelgek</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="LaatJeGaan.html">Laat je Gaan (Gio Swikker Editie)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="MijnHeld.html">Mijn Held (voor DusDavid)</a>                        
+                      </div>
+                    </li>
+                    <li class="nav-item nItmes">
+                      <a class="nav-link" href="honorable.html">Honorable Mentions</a>
+                    </li>
+                    <li class="nav-item nItmes">
+                      <a class="nav-link" href="#">Comments</a>
+                    </li>
+                    <li class="nav-item nItmes">
+                      <a class="nav-link" href="gegevens.html">Gegevens Formulier</a>
+                    </li>
+                    <li class="nav-item nItmes active">
+                      <a class="nav-link" href="nieuws.html">Nieuws</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          
+            <div class="row">
+              <div class='col-lg-12'>
+                <h1>Nieuwste nieuwtjes</h1>
+                <p>Op deze pagina vind je alle nieuwtjes, out of the first hand.</p>
+              </div>      
+                     
+              <input class="form-control" id="myInput" type="text" placeholder="Search..">
+              <section>
+                <ul>
+                  <li class="list active" data-filter="all">Alles</li>
+                  <li class="list" data-filter="TVOH">The Voice</li>
+                  <li class="list" data-filter="binnenland">Binnenland</li>
+                  <li class="list" data-filter="buitenland">Buitenland</li>
+                  <li class="list" data-filter="vermist">Vermist</li>
+                  <li class="list" data-filter="tech">Tech</li>
+                </ul>
+              </section>
+            </div>
+            <div id="myDIV">
+            <div class="row">
+              <div class='col-lg-4 itemBox TVOH' >
+                <a href="#"><img src="../img/voice.jpg" width="350px" height="200px">
+                  <h4 class="artiestenTekst well">Het gaat niet goed met de Voice</h4></a>
+              </div>
+              <div class='col-lg-4 itemBox buitenland'>
+                <a href="#"><img src="../img/club.jpg" width="350px" height="200px">
+                  <h4 class="artiestenTekst well">Naar de club in Wales en borrelen in Noorwegen</h4></a>
+              </div>
+              <div class='col-lg-4 itemBox binnenland'>
+                <a href="#"><img src="../img/steekpartij.jpg" width="350px" height="200px">                  
+                    <h4 class="artiestenTekst">Vrouw overleden na steekpartij Abbenbroek</h4></a>              
+              </div>
+            </div>
+              <div class="row">
+                <div class='col-lg-4 itemBox TVOH'>
+                  <a href="Royalistiq.html"><img src="../img/talpa.jpg" width="350px" height="200px">
+                    <h4 class="artiestenTekst">Talpa reageert niet op uitlatingen Johnny de Mol over rol John </h4></a>
+                </div>
+                <div class='col-lg-4 itemBox vermist'>
+                  <a href="Bankzitters.html"><img src="../img/davedekock.png" width="350px" height="200px">
+                    <h4 class="artiestenTekst">Hoe Dave politie naar lichaam Dean (4) leidde</h4></a>
+                </div>
+                <div class='col-lg-4 itemBox tech'>
+                  <a href="#"><img src="../img/elecauto.jpg" width="350px" height="200px">
+                    <h4 class="artiestenTekst">Splinternieuwe elektrische auto vliegt in showroom in brand</h4></a>
+                </div>
+            </div>
+            <br><br><br>
+            <p>(Bron: De Telegraaf)</p>
+          </div>
+            
+
+  
+
+      </div>
+     </div>
+            
+ 
+  
   </body>
 </html>

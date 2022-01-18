@@ -37,7 +37,37 @@ body {
 
 .hoofd {
   margin-top: 55px;
+  margin-bottom: 45px;
 }
+
+
+//filter section
+section {
+  padding: 20px;
+  width: 1280px;
+  margin: 40px auto;
+}
+
+section ul {
+  display: flex;
+  margin-buttom: 10px;
+  margin-top: 20px;
+}
+
+section ul li {
+  list-style: none;
+  background: #343a40;
+  padding: 8px 20px;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+section ul li.active {
+  background: #03a9f4;
+}
+
 
 .jumbotron {
   color: black;
@@ -47,7 +77,7 @@ body {
 }
 
 .well {
-  
+
 }
 
 #ba-tekst {
